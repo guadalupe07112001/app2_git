@@ -2,10 +2,10 @@
 
 <widget xmlns = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/1.0"
-id = "com.phonegap.app2_modulos"
+id = "com.phonegap.app2"
 version = "1.0.0"
 
-<name> app2_modulos-Especialidad Técnico en programación </name>
+<name> app2-Especialidad Técnico en programación </name>
 
 <description>
 Aplicacion que nos muestra informacion sobre la especialidad de Técnico en Programación CBTis
@@ -32,12 +32,11 @@ Maria Guadalupe Lopez Eliosa
 <!--Para accesar a paginas en internet-->
 <allow-intent href="https://*/*"/>
 <acces origin="https://*/*"/>
-<allow-intent href="http://*/*"/>
-<acces origin="http ://*/*"/>
+<allow-intent href="https://*/*"/>
+<acces origin="https://*/*"/>
 <plugin name="cordova-plugin-whitelist" source="npm"/>
 
 <!-- Colocar icono app -->
-
 <icon src="res/android/mdpi.png" />
 
 </widget>
